@@ -1,52 +1,52 @@
 🖮 Typing Speed Calculator 🧠⌨️
-This is a simple Typing Speed Calculator built in Python. It allows users to test their typing speed and accuracy by comparing their input against randomly selected sentences.
+This is a simple Typing Speed Calculator built using Python. It allows users to test their typing speed and accuracy by comparing their input against randomly selected sentences.
 
 📋 Features
-Measures typing speed in words per second.
 
-Calculates typing accuracy by counting errors.
+Measures typing speed in words per second
 
-Includes random test sentences.
+Calculates typing accuracy by counting character-level errors
 
-Loops until the user exits.
+Includes random test sentences for variety
+
+Allows repeated tests until the user chooses to exit
 
 🛠️ Requirements
+
 Python 3.x
 
-No external libraries required.
+No external libraries required
 
 🧪 How It Works
+
 Run the Python script:
 
 bash
 Copy
 Edit
 python type.py
-Type yes to begin a test.
+Type yes to begin a typing test
 
-A sentence will be shown. Type it as accurately and quickly as possible.
+A sentence will appear; type it as accurately and quickly as possible
 
-The program displays:
+After submission, the program displays:
 
-Your speed in words per second.
+Your typing speed in words per second
 
-Number of errors compared to the original sentence.
+The number of errors compared to the original sentence
 
-Type no to exit the program.
-
-## 📸 Screenshot
-
-![Typing Speed Calculator Output](https://github.com/user-attachments/assets/08278a99-0b78-47a1-bb5c-1dd142af07f1)
-
+Type no to exit the program
 
 🧩 Code Breakdown
-mistake(partest, usertest)
-Compares the original sentence (partest) and the user's input (usertest) to count character-wise errors.
 
-speed_time(time_s, time_e, userinput)
-Calculates the time taken and derives typing speed based on number of characters typed.
+mistake(partest, usertest):
+Compares the original sentence (partest) and user input (usertest) to count character-level mistakes.
+
+speed_time(time_s, time_e, userinput):
+Calculates the time taken and derives typing speed based on the number of characters typed.
 
 🚀 Sample Output
+
 bash
 Copy
 Edit
@@ -55,14 +55,14 @@ ready to test: yes/no :yes
 Modern education blends technology and traditional learning, fostering skill development and critical thinking in students.
 
 Enter: Modern education blends technology and traditional
-Speed :  2 w/sec
-Error :  73
+Speed : 2 w/sec
+Error : 73
 📚 Future Improvements
-Add WPM (Words Per Minute) instead of characters/second.
 
-Include a GUI using Tkinter or PyQt.
+Display WPM (Words Per Minute) instead of characters/second
 
-Highlight mistakes in real-time.
+Add a GUI using Tkinter or PyQt
 
-Save results to a file or leaderboard.
+Highlight mistakes in real time
 
+Save results to a file or maintain a leaderboard
