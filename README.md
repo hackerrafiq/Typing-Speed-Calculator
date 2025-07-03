@@ -1,4 +1,4 @@
-![Screenshot 2025-07-03 084939](https://github.com/user-attachments/assets/d8dee85a-185d-47f7-b065-9673e9ebe86b)🖮 Typing Speed Calculator 🧠⌨️
+🖮 Typing Speed Calculator 🧠⌨️
 This is a simple Typing Speed Calculator built in Python. It allows users to test their typing speed and accuracy by comparing their input against randomly selected sentences.
 
 📋 Features
